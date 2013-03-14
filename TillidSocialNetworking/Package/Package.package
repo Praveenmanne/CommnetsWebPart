@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="39f5f150-7014-4112-a267-dfc62df438da" solutionId="39f5f150-7014-4112-a267-dfc62df438da" resetWebServer="false" name="TillidSocialNetworking" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="3791e9eb-bfda-4664-91ab-d88712bf34a9" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="2078996c-33e4-4bd3-afb8-1a9cb8cac656" />
+  </projectItems>
+</package>

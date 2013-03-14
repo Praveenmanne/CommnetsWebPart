@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="39f5f150-7014-4112-a267-dfc62df438da" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="TillidSocialNetworking.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="TillidSocialNetworking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=13c452dc6efc9d74" Namespace="TillidSocialNetworking" TypeName="*" SafeAgainstScript="True" />
+        <SafeControl Assembly="TillidSocialNetworking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=13c452dc6efc9d74" Namespace="TillidSocialNetworking.Comments" TypeName="*" SafeAgainstScript="True" />
+        <SafeControl Assembly="TillidSocialNetworking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=13c452dc6efc9d74" Namespace="TillidSocialNetworking.PostComment" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\TillidSocialNetworking\Comments\CommentsUserControl.ascx" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\CommentsView.ascx" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\ajax.gif" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\Avatar.jpg" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\Comments.js" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\dislikeimg.jpg" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\jquery-1.4.1-vsdoc.js" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\jquery-1.4.1.js" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\jquery-1.4.1.min.js" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\likeimg.jpg" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\noavatar.png" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\PostComment.aspx" />
+    <TemplateFile Location="Layouts\TillidSocialNetworking\Stylesheet.css" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="TillidSocialNetworking_TillidSocialNetworking\Feature.xml" />
+  </FeatureManifests>
+</Solution>

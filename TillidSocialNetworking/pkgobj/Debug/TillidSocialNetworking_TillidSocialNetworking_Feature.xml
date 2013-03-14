@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="2965f020-f75f-45f6-980e-dc494e2836b1" Scope="Site" Title="Tillid SocialNetworking ">
+  <ElementManifests>
+    <ElementManifest Location="Comments\Elements.xml" />
+    <ElementFile Location="Comments\Comments.webpart" />
+  </ElementManifests>
+</Feature>

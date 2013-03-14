@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="CommentsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Comments\" Type="ElementManifest" />
+    <ProjectItemFile Source="Comments.webpart" Target="Comments\" Type="ElementFile" />
+    <ProjectItemFile Source="CommentsUserControl.ascx" Target="CONTROLTEMPLATES\TillidSocialNetworking\Comments\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="TillidSocialNetworking" TypeName="*" IsSafe="true" IsSafeAgainstScript="true" />
+    <SafeControl Name="SafeControlEntry2" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="TillidSocialNetworking.Comments" TypeName="*" IsSafe="true" IsSafeAgainstScript="true" />
+    <SafeControl Name="SafeControlEntry3" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="TillidSocialNetworking.PostComment" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>
